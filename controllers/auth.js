@@ -8,7 +8,7 @@ const register = async (req, res) => {
   res.status(StatusCodes.CREATED).json({ user: { name: user.name }, token });
 };
 
-// TODO LOGIN CONTROLLER LOGIC
+
 const login = async (req, res) => {
   const { email, password } = req.body;
 
